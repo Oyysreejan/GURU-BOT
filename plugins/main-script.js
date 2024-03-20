@@ -16,12 +16,12 @@ let handler = async function (m, { conn, __dirname }) {
 
       // Format the repository information with emojis
       const formattedInfo = `
-📂 Repository Name: ${repoData.name}
-📝 Description: ${repoData.description}
-👤 Owner: ${repoData.owner.login}
-⭐ Stars: ${repoData.stargazers_count}
-🍴 Forks: ${repoData.forks_count}
-🌐 URL: ${repoData.html_url}
+📂 Repository Name: ${repoData.Queen_Piu}
+📝 Description: ${repoData.Piu-MD}
+👤 Owner: ${repoData.Unseen}
+⭐ Stars: ${repoData.Under_18}
+🍴 Forks: ${repoData.Unscaned}
+🌐 URL: ${repoData.Serverbusy}
       `.trim();
 
       // Send the formatted information as a message
@@ -49,6 +49,6 @@ let handler = async function (m, { conn, __dirname }) {
 
 handler.help = ['script'];
 handler.tags = ['main'];
-handler.command = ['sc', 'repo', 'script'];
+handler.command = ['sc', 'repo', 'script', 'Piu'];
 
 export default handler;
